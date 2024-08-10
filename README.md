@@ -1,5 +1,5 @@
 ### EX1 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
-### DATE: 
+### DATE: 10.08.2024
 ### AIM: 
   To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
 ### PROCEDURE: 
@@ -54,6 +54,13 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+#### Employee Table:
+![image](https://github.com/user-attachments/assets/ba6be101-f112-4b1c-b17c-bca6e0e46451)
+
+
+
+#### Weather Table:
+![image](https://github.com/user-attachments/assets/f98b5669-3279-4558-8846-384df3efa2d5)
 
 
 ### PREPROCESSING
@@ -76,6 +83,17 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+#### Weather Table after adding new attribute CLIMATE:
+
+![image](https://github.com/user-attachments/assets/4540b1a2-a1a1-40bd-9c4b-520be4f9371e)
+
+
+#### Employee Table after adding new attribute ADDRESS:
+![image](https://github.com/user-attachments/assets/bc74156f-68a3-44c8-82f2-37b58e803f73)
+
+
+
+
 ### 2) Remove -> Pre-Processing Technique:
 
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
@@ -92,6 +110,16 @@ rainy,75.0,80.0,false,yes
 
 ### OUTPUT:
 
+#### Weather Table after removing attributes WINDY, PLAY:
+
+![image](https://github.com/user-attachments/assets/04da5f18-4c59-48ce-8aa4-e345fbbec454)
+
+#### Employee Table after removing attributes SALARY, GENDER:
+![image](https://github.com/user-attachments/assets/f36b9b64-f6d6-4294-b45f-bb41b425578c)
+
+
+
+
 ### Normalize -> Pre-Processing Technique:
 
 1) Start -> Programs -> Weka-3-4 -> Weka-3-4
@@ -107,5 +135,15 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+
+#### Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+![image](https://github.com/user-attachments/assets/66b20dd5-9058-4a39-abb3-f321ce938524)
+
+
+
+#### Employee Table after Normalizing ID, EXP, PHONE:
+![Uploading image.png…]()
+
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
