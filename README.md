@@ -142,7 +142,8 @@ rainy,75.0,80.0,false,yes
 
 
 #### Employee Table after Normalizing ID, EXP, PHONE:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8a7f3859-c34d-48a4-b89b-c34711f1cffc)
+
 
 
 ### RESULT: 
